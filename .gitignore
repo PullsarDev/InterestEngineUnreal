@@ -1,0 +1,8 @@
+/Binaries/
+/Intermediate/
+/Saved/
+/.local/
+/.vs/
+*.sln
+*.suo
+*.VC.db

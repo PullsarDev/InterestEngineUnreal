@@ -1,0 +1,17 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "0.2.1",
+	"EngineVersion": "5.8.0",
+	"FriendlyName": "Interest Engine for Unreal",
+	"Description": "Native C++ adapter for the Interest Engine attention-selection kernel. Your game supplies candidates with scores and the current time; the kernel returns one deterministic, hysteresis-stabilized choice. No perception, gaze animation, replication or Blueprint API. Windows (Win64), Unreal Engine 5.8 only.",
+	"Category": "AI",
+	"CreatedBy": "PullsarDev",
+	"CreatedByURL": "https://github.com/PullsarDev",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"SupportedTargetPlatforms": [ "Win64" ],
+	"Modules": [
+		{ "Name": "InterestEngineRuntime", "Type": "Runtime", "LoadingPhase": "Default" }
+	]
+}
